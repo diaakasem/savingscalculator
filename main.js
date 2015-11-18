@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    //var outputPercent = $('#output-percent');
-    //var outputSpend = $('#output-spend');
+    var outputPercent = $('#output-percent');
+    var outputSpend = $('#output-spend');
 
     var minPercentValue = 10;
     var maxPercentValue = 15;
@@ -47,14 +47,14 @@ $(document).ready(function() {
 
     function onPercentSlide(value) {
         percentValue = value;
-        // outputPercent.text(value);
+        outputPercent.text(value + "%");
         calculate();
         return value + "%";
     }
 
     function onSpendSlide(value) {
         spendValue = value;
-        // outputSpend.text(value);
+        outputSpend.text(value + "K");
         calculate();
         return value + "K";
     }
