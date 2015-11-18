@@ -6,11 +6,11 @@ $(document).ready(function() {
     var minPercentValue = 10;
     var maxPercentValue = 15;
 
-    var minSpendValue = 1;
-    var maxSpendValue = 10;
+    var minSpendValue = 0;
+    var maxSpendValue = 50;
 
-    var percentValue = 13;
-    var spendValue = 5;
+    var percentValue = 25;
+    var spendValue = 25;
 
     function money(value) {
         return accounting.formatMoney(parseInt(value), "$", 0);
