@@ -57,9 +57,9 @@ $(document).ready(function() {
 
     function onSpendSlide(value) {
         spendValue = value;
-        outputSpend.text(value + "K");
+        outputSpend.text("$" + value + "K");
         calculate();
-        return value + "K";
+        return "$" + value + "K";
     }
 
     function initPercent() {
