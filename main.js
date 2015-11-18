@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     var outputPercent = $('#output-percent');
+    var diffPercent = $('#diff-percent');
     var outputSpend = $('#output-spend');
 
     var minPercentValue = 10;
@@ -48,6 +49,8 @@ $(document).ready(function() {
     function onPercentSlide(value) {
         percentValue = value;
         outputPercent.text(value + "%");
+        var sign = value > 13 ? "+" : "";
+        diffPercent.text(sign + (value - 13));
         calculate();
         return value + "%";
     }
