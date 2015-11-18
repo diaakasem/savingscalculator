@@ -27,6 +27,7 @@
     "jquery": "~2.1.4",
     "bootstrap": "~3.3.5",
     "seiyria-bootstrap-slider": "~5.2.6",
-    "accounting.js": "~0.4.1"
+    "accounting.js": "~0.4.1",
+    "Bootstrap-Arrows": "iarfhlaith/Bootstrap-Arrows"
   }
 }
