@@ -1,0 +1,32 @@
+{
+  "name": "savingscalculator",
+  "homepage": "https://github.com/diaakasem/savingscalculator",
+  "authors": [
+    "Diaa Kasem <me@diaa.me>"
+  ],
+  "description": "Simple calculator",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Savings",
+    "Calculator"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "seiyria-bootstrap-slider": "~5.2.6",
+    "accounting.js": "~0.4.1"
+  }
+}
