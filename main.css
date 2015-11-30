@@ -10,10 +10,17 @@ body {
     margin-bottom: 4px;
 
 }
+
 .slider-container{
     padding: 30px;
 }
 
+.estimated span{
+    font-family: "Arial";
+    font-size: 1.8em;
+    display: inline-block;
+    padding: 5px .2em;
+}
 
 .box {
     background:#fff;
