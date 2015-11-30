@@ -18,13 +18,13 @@ $(document).ready(function() {
     }
 
     function calcMinSavings() {
-        var value = spendValue * 1000 * minPercentValue / 100;
+        var value = 12 * spendValue * 1000 * minPercentValue / 100;
         $('#minEstimatedSaving').text(money(value));
         return value;
     }
 
     function calcMaxSavings() {
-        var value = spendValue * 1000 * maxPercentValue / 100;
+        var value = 12 * spendValue * 1000 * maxPercentValue / 100;
         $('#maxEstimatedSaving').text(money(value));
         return value;
     }
