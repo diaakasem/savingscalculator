@@ -10,7 +10,7 @@ $(document).ready(function() {
     var minSpendValue = 0;
     var maxSpendValue = 50;
 
-    var percentValue = 25;
+    var percentValue = 13;
     var spendValue = 25;
 
     function money(value) {
