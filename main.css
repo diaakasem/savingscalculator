@@ -1,11 +1,14 @@
 body {
-    font-family: "Times New Roman";
+    /* font-family: "Times New Roman"; */
+    font-family: 'Roboto Slab', serif;
 }
 .col-md-4 h4 {
     padding: 0 30px;
 }
 .main-header h3, h2{
-    font-family: "Arial";
+    /*font-family: "Arial";*/
+    /*font-family: 'Roboto Slab', serif;*/
+    font-family: 'Open Sans', sans-serif;
     margin-top: 4px;
     margin-bottom: 4px;
 
@@ -16,7 +19,8 @@ body {
 }
 
 .estimated span{
-    font-family: "Arial";
+    /*font-family: "Arial";*/
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.8em;
     display: inline-block;
     padding: 5px .2em;
