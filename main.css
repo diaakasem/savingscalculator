@@ -11,11 +11,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin-top: 4px;
     margin-bottom: 4px;
-
 }
 
-.slider-container{
+.slider-container {
     padding: 30px;
+}
+.slider-container .slider-horizontal {
+    float: left;
 }
 
 .estimated span{
